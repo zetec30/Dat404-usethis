@@ -1,0 +1,49 @@
+
+#Logo{
+ font-size: 50px;
+ font-family: roboto, serif;
+ text-decoration: underline;
+ margin-left: 10px;
+ padding: 0;
+}
+
+#Logo2{
+
+font-size: 50px;
+font-size: 50px;
+font-family: roboto;
+margin-left: 10px;
+padding: 0;
+
+}
+
+#Enter{
+font-size: 30px;
+font-family: arial;
+margin-right: 20px;
+padding: 0;
+cursor:pointer;
+
+}
+
+#p5h2{
+
+  color: white;
+  margin-top:
+  padding:inherit;
+}
+
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#p5{
+
+  margin-top: 150px;
+
+}
