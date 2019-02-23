@@ -1,0 +1,439 @@
+        #home {
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+            padding-top: 50px;
+            padding-bottom: 200px;
+        }
+
+        #portfolio {
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        #about {
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+            background-color: white;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        #contact {
+            background-color: white;
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        a {
+            font-family: 'Orbitron', sans-serif;
+        }
+          p{
+          margin-top: 20px;
+
+        }
+
+        footer {
+
+            backface-visibility: 8%;
+            font-weight: normal;
+            font-family: roboto, sans-serif;
+            padding-top: 30px;
+        }
+
+        #p3 {
+            font-size: 20px;
+            font-family: roboto, sans-serif;
+            font-weight: normal;
+        }
+
+
+
+        #subbtn {
+            background-color: transparent;
+            margin-top: 10px;
+            padding: 20 20 20 20;
+            border-radius: 12px;
+            cursor: grab;
+        }
+
+        #logoHome {
+            margin-top: 100px;
+            max-width: 100%;
+            height: auto;
+            width: auto\9;
+        }
+
+        #social {
+            margin-top: 50px;
+        }
+
+        #bio {
+            color: grey;
+            font-family: arial, sans-serif;
+            font-size: 18px;
+            text-align: left;
+
+        }
+
+        #bio p::selection {
+            color: black;
+            background-color: lightgrey;
+
+
+        }
+
+        #p5 {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        #p5R {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        #p52 {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+
+        input[type=text],
+        select,
+        textarea {
+            width: 60%;
+            padding: 12px;
+            border: 1px solid rgb(102, 102, 102);
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 9px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=email] {
+            width: 60%;
+            padding: 12px;
+            border: 1px solid rgb(102, 102, 102);
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 9px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=name] {
+            width: 60%;
+            padding: 12px;
+            border: 1px solid rgb(102, 102, 102);
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 9px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+
+
+        #copy {
+            background-color: gray;
+            color: white;
+            font-size: 17px;
+        }
+
+        #logoFooter {
+            padding-bottom: 40px;
+
+
+
+        }
+
+        #arLarge {
+            margin-left: 320px;
+            margin-top: 50px;
+        }
+
+        #body2 {
+            background-color: grey;
+        }
+      #address{
+        text-align: left;
+        font-size: 14px;
+        padding-top: 20px;
+      }
+      h4{
+
+        text-align: left;
+        padding-top: 20px;
+        margin: 0;
+      }
+
+      h1{
+
+        padding-bottom: 20px;
+      }
+      h5{
+
+        padding-left: 100px;
+        padding-top: 30px;
+      }
+
+
+#email{
+  color: black;
+  font-weight: 400;
+  font-family: roboto,sans-serif;
+}
+.typewriter h1 {
+  font-family: monospace; /* Web-safe typewriter-like font */
+  font-size: 50px;
+  font-weight: 400;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blinking-cursor .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+#cont{
+
+  font-family: roboto,sans-serif;
+  font-size: 17px;
+  padding-left: 100px;
+}
+#hob{
+
+  padding-left: 100px;
+}
+#sit{
+
+  font-family: roboto,sans-serif;
+  padding-left: 100px
+
+}
+#emai{
+
+  font-family: roboto,sans-serif;
+  color: black;
+}
+
+#Link{
+
+  color: black;
+  font-family: roboto,sans-serif;
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: grey;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: grey;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: white;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: grey;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+#phtos{
+
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+
+#body2{
+
+  scroll-behavior: smooth;
+
+}
+#photologo{
+  margin-bottom: 20px;
+}

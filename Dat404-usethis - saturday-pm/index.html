@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-lightbox/0.7.0/bootstrap-lightbox.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+
+
+
+
+    <!--Title-->
+    <title>FuryDesign</title>
+
+
+
+
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" alt="scroll-spy-nav">
+
+
+    <nav class=" navbar bg-dark navbar-dark sticky-top navbar-expand-lg ">
+        <ul class="navbar-nav navbar-nav ml-auto">
+            <li class="nav-item"><a href="#home" class="nav-link active text-uppercase">Home</a>
+                <li>
+                    <li class="nav-item"><a href="#about" class="nav-link text-uppercase">About</a>
+                        <li>
+                            <li class="nav-item"><a href="#portfolio" class="nav-link text-uppercase">Portfolio</a>
+                                <li>
+                                    <li class="nav-item"><a href="#contact" class="nav-link text-uppercase">Contact</a>
+                                        <li>
+        </ul>
+    </nav>
+
+    <div id="home" class="container-fluid "  alt="sketch-background">
+        <!--P5 Sketch-->
+        <div id="p5"></div>
+        <!--Head image-->
+        <img id="logoHome" src="assets/logofd2.png" alt="header-logo">
+
+
+
+        <!--Social Icons-->
+        <ul id="social" class="social-icons">
+            <a href="http://www.facebook.com"><img name="face" src="assets/13962.png" onmouseover="mouseOver()" onmouseout="mouseOut()" /></a>
+            <a href="http://www.instagram.com"><img name="insta" src="assets/insta.png" onmouseover="mouseOveri()" onmouseout="mouseOuti()" /></a>
+        </ul>
+
+    </div>
+    </div>
+
+    <div id="about" class="container-fluid typewriter">
+        <h1>ABOUT ME</h1>
+
+<br><br>
+
+<section>
+        <!--About me-->
+
+
+        <div class="container container-fluid" alt="about-me">
+            <br>
+            <!--row of bio, expierience, hobbies-->
+            <div class="row ">
+
+                <div id="bio" class="col-sm align-text left">
+                    <h2>Bio</h2>
+                    <hr>
+                    <p>“An expierenced Graphic Designer with expierience with Web Design, specializing in Adobe Design and Wordpress Development. I build clean, appealing, and functional interfaces which comply with the latest web standards. Also an amputee
+                        below knee who's using every opertunity at the University of Plymouth studying a BSC(hons)Digital Media Design as a mature student”</p>
+                </div>
+
+                <div id="bio" class="col-sm align-text left">
+                    <h2>Expierience</h2>
+                    <hr>
+                    <p>"Previous expierience includes Royal Artillery MLRS ("Gunners"). BTEC National Diploma (Print & Design) followed by work within litho print at Lowe Aston (2yrs) then working in digital print for Edwards Brothers Malloy UK operations
+                        (10yrs). Freelance Graphic Design & Freelance Web Design mainly within Wordpress."
+
+                </div>
+
+                <div id="bio" class="col-sm">
+                    <h2>Hobbies</h2>
+                    <hr>
+                    <p>"Enjoy anything practical. Even built a motorcycle from the ground up. Have a passion for prosthetics, how they work and how to increase a persons wellbeing whilst using prosthetics I also like to doodle designs for covers of prosthetic
+                        limbs that help a persons sense of confidence (see my pics!) designed logo's for charities before especially when healing myself."</p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+  </section>
+    <!--Portfolio-->
+<section>
+    <div id="portfolio" class="typewriter container-fluid ">
+        <h1>PORTFOLIO</h1>
+        <br><br>
+        <!-- Images used to open the lightbox -->
+        <div class="row">
+          <div class="column">
+            <img src="assets/60.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="assets/Capture.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="assets/eye.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="assets/glitch.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+          </div>
+        </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+
+            <div class="mySlides">
+              <div class="numbertext">1 / 4</div>
+              <img src="assets/60.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 4</div>
+              <img src="assets/Capture.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 4</div>
+              <img src="assets/eye.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4 / 4</div>
+              <img src="assets/glitch.png" style="width:100%">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+              <p id="caption">Graphic & Web Design</p>
+            </div>
+
+
+
+          </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section>
+    <div id="contact" class=" typewriter container-fluid ">
+        <h1>CONTACT</h1>
+        <br>
+
+        <br>
+        <div>
+            <!--Contact form-->
+
+            <form method="POST" action="https://formspree.io/austinfury3@gmail.com">
+                <!-- <label>Name</label> -->
+                <input type="name" name="name" placeholder="Your name" required>
+                <!-- <label>Email</label> -->
+                <input type="email" name="email" placeholder="Your email" required>
+                <!-- <label>Message</label> -->
+                <textarea name="message" placeholder="Test Message" required></textarea>
+<br>
+                <button id="subbtn" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer  class="page-footer font-small blue pt-4">
+
+        
+        <div class="container-fluid text-center text-md-left">
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+              <!-- Contact -->
+              <h5 class="text-uppercase">CONTACT</h5>
+
+              <br>
+              <p id="cont">Mike Austin
+                <br>
+                 Plymouth University
+                 <br>
+                 PL10 1QH
+                 <br>
+                 Tel: 07484 265574
+                 <br>
+                 Email:  <a id="emai" href="#">info@furydesign.co.uk</p></a>
+
+            </div>
+
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5  class="text-uppercase">HOBBIES</h5>
+<br>
+                <ul id="hob" class="list-unstyled">
+                  <li>
+                    <a id="Link" href="photography2.html">PHOTOGRAPHY</a>
+                  </li>
+                  <li>
+                    <a id="Link" href="limbArt.html">LIMB PROSTHETICS</a>
+                  </li>
+
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+
+              <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">SITE MAP</h5>
+<br>
+                <ul id="sit" class="list-unstyled">
+                  <li>
+                    <a id="Link" href="index.html#home">HOME</a>
+                  </li>
+                  <li>
+                    <a  id="Link"href="index.html#about">ABOUT</a>
+                  </li>
+                  <li>
+                    <a id="Link" href="index.html#portfolio">PORTFOLIO</a>
+                  </li>
+                  <li>
+                    <a id="Link" href="index.html#contact">CONTACT</a>
+                  </li>
+                </ul>
+
+              </div>
+
+
+          </div>
+
+
+        </div>
+
+        <br>
+<!--footer logo-->
+<div id="logoFooter" class="d-flex justify-content-center">
+    <img  src="assets/logofd.png"></div>
+</div>
+
+      </footer>
+
+
+
+
+
+
+
+    <!--Copyright-->
+    <div id="copy" class="text-center pt-1 pb-1">
+        <small>Terms & Conditions | Copyright &copy;FuryDesign <span id="autoDate"></span></small>
+    </div>
+    <div class="_9AhH0"></div>
+
+</body>
+
+</html>
